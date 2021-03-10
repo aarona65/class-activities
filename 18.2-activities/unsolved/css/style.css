@@ -1,8 +1,8 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+/*
 
-/* Grid CSS */
 #heroGrid{
   margin: 0px 5%;
   display: grid;
@@ -15,7 +15,7 @@ body {
   'featuredProduct CTA';
 }
 
-/* Category Grid CSS */
+
 
 #featuredProduct{
   grid-area: featuredProduct;
@@ -117,7 +117,7 @@ body {
   border-bottom: 5px solid #FF6200;
 }
 
-
+*/
 
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
