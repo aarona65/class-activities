@@ -1,11 +1,6 @@
 #hero{
     /* background-image:url("../images/hero.png");
     background-repeat: no-repeat; */
-    
-    
-}
-
-#hero .jumbotron {
     background-image:url("../images/hero.png");
     background-repeat: no-repeat;
     height:75vh;
@@ -14,6 +9,49 @@
     
 }
 
-.jumbotron {
+#hero .jumbotron {
     
+    
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none !important;
+}
+
+.hero-section .jumbotron{
+    background-color: none !important;
+}
+
+#adventure h2 {
+    font-size: 58px;
+    color: black;
+    text-align: center;
+}
+
+#adventure h2 span {
+    color: #f90;
+    font-size: 37px;
+    display: block;
+}
+
+.adventure-item{
+    background-image: url("../images/adventure-background-image.png");
+    height: 480px;
+    padding: 100px 20px;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+
+.adventure-item img{
+    width: 45px;
+
+}
+
+.adventure-item .btn-primary{
+    background-color: #ff9900;
+    border-color: #ff9900;
 }
